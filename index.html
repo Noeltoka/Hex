@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,19 @@
     <title>Hex colors</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
-<body><div class="container">
-    <h1 class="title">
-        CLICK THE BUTTON BELLOW TO GENERATE A RANDOM GRADIENT HEX COLOR COMBINATION
-    </h1>
-    <h2 class="subtitle">background: linear-gradient(to right,</h2>
-    <button class="btn"><p>Click me</p></button>
-</div>
-<script src="/js/app.js"></script>
+
+<body>
+    <div class="container">
+        <div id="hex-colors">
+            <h1>Click the button bellow to generate a random gradient hex color combination</h1>
+            <h2>background: linear-gradient(to right, #<span id="hexcode1">ffffff</span>, #<span
+                    id="hexcode2">ffffff</span>);
+            </h2>
+            <button id="submit" class="btn btn-light">Click Me</button>
+        </div>
+    </div>
+    </main>
+    <script src="/js/app.js"></script>
 </body>
+
 </html>

@@ -13,47 +13,48 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    background-color: black ;
-    
+
 }
 
-.title {
+h1 {
     font-weight: 400;
     font-size: 30px;
-    background: linear-gradient(45deg, white, grey, orange); 
+    background: linear-gradient(45deg, black, grey, orange);
     background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: gradient 5s ease infinite; 
+    animation: gradient 2s alternate infinite;
 }
 
 @keyframes gradient {
     0% {
         background-position: 0 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0 50%;
     }
 }
 
-.subtitle {
+h2 {
     font-weight: 400;
     font-size: 30px;
     margin: 140px 0 8px 0;
+
+    background: linear-gradient(45deg, black, grey, orange);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 2s ease infinite;
 }
 
 .btn {
     border: 0;
     border-radius: 7px;
     cursor: pointer;
-    background-color: red;
-}
-
-.btn p {
     padding: 6px 12px;
-    
 }
-
